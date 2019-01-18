@@ -219,7 +219,8 @@ header {
     background-color: #efcfc6;
     padding: 40px 30px;
     border-radius: 10px; 
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
 }
 
 .famille-details img {
@@ -234,11 +235,55 @@ header {
     
 }
 
+.famille-details p {
+    text-align: center;
+}
+
 
 /* GALERIE PHOTOS
 ====================================*/
 
 .galerie-img {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
     height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
     
+}
+
+.galerie-titre  {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    
+}
+
+.galerie-titre {
+    color: #fff;
+    
+}
+
+
+/* CLIENTS
+====================================*/
+
+.clients {
+    background-image:  linear-gradient(to right,   rgba(0, 105, 64, 0.5), 
+                                                   rgba(255,0,0,0.5)
+        ),
+        
+    background-image: url(../images/clients/the-paysage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.clients h2 {
+    color: #fff;
+    
+
 }
