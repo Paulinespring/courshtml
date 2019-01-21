@@ -52,7 +52,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    color: #eee;    
+    color: #eee; 
   
 }
 
@@ -133,8 +133,7 @@ header {
 
 .home-title p {
     color: #fff;
-    
-    
+
 }
 
 /* Button */
@@ -284,7 +283,7 @@ header {
     color: #fff;   
 }
 
-.clients h:after {
+.clients h2:after {
     background-color: #fff;
 }
 
